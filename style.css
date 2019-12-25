@@ -20,11 +20,15 @@ header h1 {
     margin: 0 15px 0 15px;
     padding-bottom: 5px;;
 }
+#img-div img {
+    max-width: 100%;
+    height: auto;
+}
 #img-caption {
     font-size: 15.5px;
 }
 #tribute-info {
-    margin: 0 33% 0 33%;
+    margin: 0 20vw 0 20vw;
     padding: 20px 0 20px 0;
     text-align: left;
     line-height: 1.5;
@@ -39,8 +43,17 @@ header h1 {
 }
 #quote {
     padding-top: 20px;
+    text-align: center;
 }
 #tribute-link {
     font-size: 20px;
     padding-bottom: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #tribute-info {
+        margin: 0 0 0 0;
+        width: 95%;
+    }
+  }
