@@ -1,3 +1,46 @@
-main {
-    background-color:white;    
+body {
+    background-color:white;
+    text-align: center;   
+    font-family: "Noto Sans", sans-serif;
+    color: #282830;
+    font-size: 15px;
+}
+#main {
+    background-color: #edeae7;    
+}
+header {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+header h1 {
+    font-size: 40px;
+}
+#img-div {
+    background-color: white;
+    margin: 0 15px 0 15px;
+    padding-bottom: 5px;;
+}
+#img-caption {
+    font-size: 15.5px;
+}
+#tribute-info {
+    margin: 0 33% 0 33%;
+    padding: 20px 0 20px 0;
+    text-align: left;
+    line-height: 1.5;
+}
+#tribute-info li {
+    margin-bottom: 20px;
+}
+#tribute-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+#quote {
+    padding-top: 20px;
+}
+#tribute-link {
+    font-size: 20px;
+    padding-bottom: 30px;
 }
